@@ -8,7 +8,9 @@ from PIL import Image, ImageDraw
 def gen(s, image_size):
     # some color code
     colors = ["#DDE5FF", "#597FFF"]
-    # generate hash string and take the first 16 chars
+    # generate md5 string and take the first 16 chars
+    # or maybe you can do it on your way.Get a longer string.
+    # That you can get some more quality images
     hs = md5(s)[0:16]
     # get the array of colors
     icon_color = []
