@@ -35,7 +35,7 @@ def gen(s, image_size):
     new_img.paste(lb, (0, img_rs.height))
     new_img.paste(rb, (img_rs.width, img_rs.height))
     # save
-    filename = "icon_" + s + ".png"
+    filename = "./avatar/icon_" + s + ".png"
     new_img.save(filename, "PNG")
 
 
